@@ -26,6 +26,7 @@ public class RegisterForm {
     }
 
     private void _initUI(){
+        this.owner.setResizable(false);
         usernameLabel.setForeground(Color.white);
         passwordLabel.setForeground(Color.white);
         registerButton.setForeground(Color.white);

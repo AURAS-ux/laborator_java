@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e6ee6d-c78c-4ca7-9683-ec30dfd487ec" name="Changes" comment="" />
+    <list default="true" id="d7e6ee6d-c78c-4ca7-9683-ec30dfd487ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GradeStudnetForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GradeStudnetForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cursuri.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cursuri.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeacherForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeacherForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeacherForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeacherForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/proiect_java" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -41,8 +57,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proiect-Java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
@@ -74,5 +90,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/proiect_java" />
+    </ignored-roots>
   </component>
 </project>

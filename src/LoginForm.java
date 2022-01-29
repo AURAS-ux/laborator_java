@@ -19,7 +19,7 @@ public class LoginForm {
                         JOptionPane.showMessageDialog(null, "Login successfully!");
                         mainPanel.setVisible(false);
                         if(Application.getInstance().currentUser.menuStrategy.getAccountType() ==UserAccountType.TEACHER) {
-                            owner.setContentPane(new TeacherForm().getPanel1());
+                            owner.setContentPane(new TeacherForm(owner,Application.getInstance().currentUser).getPanel1());
 
                         }else if (Application.getInstance().currentUser.menuStrategy.getAccountType() == UserAccountType.STUDENT){
                             owner.setContentPane(new StudentForm(Application.getInstance().currentUser,owner).getPanel4());
@@ -47,7 +47,8 @@ public class LoginForm {
     }
 
     private void initUI(){
-        this.owner.setSize(new Dimension(10,10));
+        this.owner.setSize(new Dimension(500,250));
+        this.owner.setResizable(false);
         this.registerButton.setForeground(Color.WHITE);
         this.lblUsername.setForeground(Color.white);
         this.passField.setForeground(Color.white);

@@ -4,6 +4,7 @@ import java.beans.XMLEncoder;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Random;
 
 public class FileDisplay implements IDisplayManager{
     @Override
@@ -50,6 +51,16 @@ public class FileDisplay implements IDisplayManager{
 
     @Override
     public void displayCourses(Curs[] cursuri) {
+        Random ran = new Random();
+        for(Curs c:cursuri){
+            for(Student s:c.studenti){
+                try {
+                    c.noteazaStudent(s,1+ran.nextInt(10));
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }
         try {
             FileOutputStream fos = new FileOutputStream("cursuri.xml");
             XMLEncoder encoder = new XMLEncoder(fos);

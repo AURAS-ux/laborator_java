@@ -15,12 +15,13 @@ enum DISPLAY_TYPE  {
 
 public class TestClass {
 	public static void main(String[] args) {
+		Settings.initApplication();
 		JFrame frame = new JFrame("Graphic user interface");
 		LoginForm loginForm = new LoginForm(frame);
 		frame.setContentPane(loginForm.getMainPanel());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
-		frame.setSize(loginForm.getOwnerDim());
+		//frame.setSize(loginForm.getOwnerDim());
 		/*Scanner sc = new Scanner(System.in);
 		System.out.println("Username = ");
 		var username = sc.next();
