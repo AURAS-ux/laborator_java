@@ -100,6 +100,7 @@ public class TeacherForm {
                 if(profFound) {
                     mainPanel.setVisible(false);
                     owner.setContentPane(new GradeStudnetForm(owner,prof).getMainPanel());
+                    System.out.println(prof);
                 }else {
                     JOptionPane.showMessageDialog(null,"Nu sunteti inregistrat la niciun curs");
                 }
