@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7e6ee6d-c78c-4ca7-9683-ec30dfd487ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursuri.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cursuri.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradeStudnetForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradeStudnetForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradeStudnetForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradeStudnetForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TeacherForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeacherForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proiect-Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RunManager">
